@@ -4,15 +4,15 @@ import HeaderComponent from "../../components/HeaderComponent";
 import NavComponent from "../../components/NavComponent";
 import requests from "../../utils/requests";
 import Results from "../../components/Results";
+import { useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({results}) {
+
   return (
     <div>
-      <head>
-        <title>Hulu 2.0</title>
-      </head>
+      
         <HeaderComponent />
         <NavComponent  />
         <Results results={results} />

@@ -4,6 +4,8 @@ import { HandThumbUpIcon } from "@heroicons/react/24/outline";
 
 const Thumbnails = ({ result  }) => {
   const BaseUrl = "https://image.tmdb.org/t/p/original";
+
+ 
   return (
     <div  className="p-2 group cursor-pointer transition duration-200 ease-in sm:hover:scale-105 hover:z-50">
       {
